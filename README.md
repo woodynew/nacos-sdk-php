@@ -24,6 +24,11 @@ ALI_MSE_NAME_SPACE_ID=4321543215-54325435423-5432   #命名空间ID
 ```
 
 ### 安装
+
+```
+composer require woodynew/alicloud-config-monitor
+```
+
 * 首先在项目`composer.json` 文件的根节点下添加`repositories`对象,组件的git地址作为源，并且优先级要高于 `packagist`,如：
 ```javascript
 {
